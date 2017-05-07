@@ -1,0 +1,43 @@
+{
+  "name": "rob-router",
+  "version": "0.0.1",
+  "description": "rob-router is router for web browser like Ruby on Rails",
+  "main": "dest/routes-on-browser.js",
+  "scripts": {
+    "test": "xo | ava --tap | tap-nyan",
+    "build": "babel src/routes-on-browser.js -o dest/routes-on-browser.js"
+  },
+  "keywords": [
+    "routes",
+    "router",
+    "rails",
+    "browser",
+    "url",
+    "dispatcher"
+  ],
+  "author": "orangemittoo",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "tap-nyan": "^1.1.0",
+    "xo": "^0.17.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "xo": {
+    "space": true
+  }
+}
