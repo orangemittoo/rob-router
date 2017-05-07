@@ -40,21 +40,11 @@ router.run(location.href);
 
 # user_controller
 export default {
-  root: () => {
-    alert('root');
-  },
-  index: () => {
-    alert('index');
-  },
-  show: userId => {
-    alert(`show:${userId}`);
-  },
-  posts: userId => {
-    alert(`posts:${userId}`);
-  },
-  postShow: (userId, postId) => {
-    alert(`posts:${userId}:${postId}`);
-  }
+  root: () => {},
+  index: () => {},
+  show: userId => {},
+  posts: userId => {},
+  postShow: (userId, postId) => {}
 };
 ```
 
@@ -64,4 +54,4 @@ export default {
 
 ## Author
 
-[tcnksm](https://github.com/orangemittoo)
+[orangemittoo](https://github.com/orangemittoo)

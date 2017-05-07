@@ -2,10 +2,10 @@
   "name": "rob-router",
   "version": "0.0.1",
   "description": "rob-router is router for web browser like Ruby on Rails",
-  "main": "dest/routes-on-browser.js",
+  "main": "dest/router.js",
   "scripts": {
     "test": "xo | ava --tap | tap-nyan",
-    "build": "babel src/routes-on-browser.js -o dest/routes-on-browser.js"
+    "build": "babel src/rob-router.js -o dest/rob-router.js"
   },
   "keywords": [
     "routes",

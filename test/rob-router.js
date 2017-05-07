@@ -1,5 +1,5 @@
 import test from 'ava';
-import Router from '../src/routes-on-browser';
+import Router from '../src/rob-router';
 
 let router;
 let users;
