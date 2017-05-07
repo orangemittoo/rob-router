@@ -37,7 +37,9 @@ const router = new RobRouter({
 });
 
 router.run(location.href);
+```
 
+```
 # user_controller
 export default {
   root: () => {},
