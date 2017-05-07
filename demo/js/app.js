@@ -1,4 +1,4 @@
-import RobRouter from '../../dest/rob-router';
+import RobRouter from 'rob-router';
 import users from './users_controller';
 
 
