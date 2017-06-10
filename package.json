@@ -1,12 +1,16 @@
 {
   "name": "rob-router",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rob-router is router for web browser like Ruby on Rails",
   "homepage": "https://github.com/orangemittoo/rob-router",
   "main": "dest/rob-router.js",
   "scripts": {
     "test": "xo | ava --tap | tap-nyan",
     "build": "babel src/rob-router.js -o dest/rob-router.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orangemittoo/rob-router"
   },
   "keywords": [
     "routes",
