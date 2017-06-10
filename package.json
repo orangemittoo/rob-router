@@ -1,6 +1,6 @@
 {
   "name": "rob-router",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "description": "rob-router is router for web browser like Ruby on Rails",
   "homepage": "https://github.com/orangemittoo/rob-router",
   "main": "dest/rob-router.js",
