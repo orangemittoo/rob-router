@@ -1,6 +1,6 @@
 {
   "name": "rob-router",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "rob-router is router for web browser like Ruby on Rails",
   "homepage": "https://github.com/orangemittoo/rob-router",
   "main": "dest/rob-router.js",
@@ -29,7 +29,7 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-register": "^6.22.0",
     "tap-nyan": "^1.1.0",
-    "xo": "^0.21.1"
+    "xo": "^0.24.0"
   },
   "babel": {
     "presets": [
