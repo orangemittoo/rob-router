@@ -1,6 +1,6 @@
 {
   "name": "rob-router",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "rob-router is router for web browser",
   "homepage": "https://github.com/orangemittoo/rob-router",
   "main": "dest/rob-router.js",
