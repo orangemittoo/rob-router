@@ -2,10 +2,10 @@ rob-router
 ====
 
 ## Overview
-For non-SPA client side routers for WEB applications similar to Rails routers.
+For non-SPA client side routers for WEB applications.
 
 ## Description
-Define the routes file just like Rails,
+Define the routes file,
 The controller matching the URL is executed.
 
 ## Usage
